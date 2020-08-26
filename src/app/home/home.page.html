@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <p> {{ myVar }}</p>
+  {{ foo() }}
+  <ion-button (click)="openPage()" expand="block">Open Page</ion-button>
+  <ion-button routerLink="/details" expand="block">Open Page with Router Link</ion-button>
+</ion-content>
